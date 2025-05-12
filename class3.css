@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+form{
+    padding: 10px;
+
+}
+form label{
+    font-size: 19px;
+}
+form input{
+    background-color: aquamarine;
+    color: black;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input:focus{
+    color: blueviolet;
+    outline: none;
+}
