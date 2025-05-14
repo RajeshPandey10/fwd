@@ -1,0 +1,33 @@
+.box{
+    height: 150px;
+   
+    background-color: rgba(26, 206, 206, 0.2);
+    opacity: 0.5;
+    /* position: absolute;
+    inset: 0;
+    margin: auto; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    
+    /* transform: translate(50%,-50%) rotate(180deg); */
+   /* transition: all 3000ms; */
+   /* box-shadow: 100px 100px 0px red ;
+   box-shadow: 5px 5px blue, 10px 10px red, 105px 15px green; */
+   padding: 10px;
+  display: flex;
+
+}
+.box h1{
+    width: 100px;
+}
+.box p{
+    width: 400px;
+}
+
+.box:hover{
+    background-color: #000;
+    color: #ffff;
+    
+}
