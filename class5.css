@@ -1,0 +1,45 @@
+/* *{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-size: 2px;
+}
+
+body{
+    background-color: blanchedalmond;
+    font-size: 2rem; 
+}
+.box1{
+    background-color: aqua;
+    min-width: 300px;
+   font-size: 4rem;
+    
+} */
+/* span{
+    height: 10px;
+    width: 10px;
+}
+div{
+    display: inline-block;
+} */
+body{
+    background-color: blanchedalmond;
+    font-size: 2rem; 
+    position: relative;
+   
+}
+.box1{
+    background-color: aquamarine;
+    /* position: absolute; */
+    
+    
+}
+.box2{
+    background-color: rgb(15, 91, 65);
+    position: absolute;
+   right: 100px;
+}
+.box3{
+    background-color: green;
+   
+}
