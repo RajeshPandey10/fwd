@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    height: 10vh;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    animation: bounce 2s  infinite;
+}
+
+@keyframes bounce{
+    0%{
+        top: 0;
+        background: url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/348100/348106.jpg" );
+        background-size: contain;
+    }
+    50%{
+        top: 200px;
+        background-color: brown;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg");
+        background-size: contain;
+    }
+    60%{
+        opacity: 0.2;
+    }
+    100%{
+        left: 200px;
+    }
+}
+@media  (width=500px) {
+    
+}

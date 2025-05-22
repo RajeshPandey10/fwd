@@ -80,3 +80,14 @@ section{
 .aboutimg img:hover{
     box-shadow: 2px 2px 2px 10px red;
 }
+@media screen and (width<400px){
+    .home{
+    display: flex;
+    flex-direction: column;
+    
+     }
+    html{
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
