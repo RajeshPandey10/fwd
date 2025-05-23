@@ -83,13 +83,13 @@
 // console.log(i)
 // })
 
-var isFounde =true;
-var a='20'
+// var isFounde =true;
+// var a='20'
 
-if(isFounde && a==20){
-    console.log("lets end the class")
-    return
-}
+// if(isFounde && a==20){
+//     console.log("lets end the class")
+//     return
+// }
 
 
-console.log("aja ititshree garaum")
+// console.log("aja ititshree garaum")
