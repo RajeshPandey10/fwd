@@ -143,6 +143,20 @@
     
 // }
 
+let person ={
+    name:"haribahadur",
+    age:20,
+    faculty:"BCT"
+}
+
+// let age = person.age;
+// let facult = person.faculty,
+let {name,age,faculty}= person
+
+console.log(name,age,faculty)
+
+
+
 
 
 
