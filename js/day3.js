@@ -1,5 +1,6 @@
 //HOF->higher order function 
 //callback
+
 // forEach-> array -> array //loop...
 //map -> dataset -->return array
 
@@ -36,27 +37,30 @@
 // })
 // console.log(squareNum)
 
-const users =[
-    {
-        id:1,
-        fName:"sameer",
-        lName:"sapkota",
-        address:"butwal",
+// const users =[
+//     {
+//         id:1,
+//         fName:"sameer",
+//         lName:"sapkota",
+//         address:"butwal",
         
-    },{
-         id:2,
-        fName:"sandesh",
-        lName:"acharya",
-        address:"bardiya"
-    },
-    {
-        id:3,
-        fName:"rajesh",
-        lName:"pandey",
-        address:"nuwakot"
-    }
+//     },{
+//          id:2,
+//         fName:"sandesh",
+//         lName:"acharya",
+//         address:"bardiya"
+//     },
+//     {
+//         id:3,
+//         fName:"rajesh",
+//         lName:"pandey",
+//         address:"nuwakot"
+//     }
   
-]
+// ]
+//  const arr=[1,2,3]
+//  const[n1,n2,n3] =arr
+//  console.log(n1,n2,n3)
 
 //   users.forEach((user)=>{
 //         console.log(user.fName + user.lName)
@@ -162,7 +166,7 @@ const users =[
 // })
 // console.log(output)
 //reduce
-// const numbers = [1,2,3,4,5,200,300,40404,4004,499,40099,40940,4809]
+// const numbers = [1,2,3,4,5,200,300,40404,4004,499,40099,40940,4809]  
 // const result =numbers.reduce(function(accumulator,currentValue){
 //  return accumulator+currentValue
 // },0)
@@ -192,34 +196,34 @@ const users =[
 // },{totalPrice:0, totalQuantity:0})
 // console.log(result)
 
-const people = [
-    {
-        name:"something",
-        age:20
-    },
-    {
-        name:"some",
-        age:22
-    },
-    {
-        name:"thing",
-        age:21
-    },
-    {
-        name:"sompthing",
-        age:20
-    },
-    {
-        name:"okey",
-        age:20
-    }
-]
-const groupData = people.reduce(function(accumulator,person){
-    const age = person.age
-    if(!accumulator[age]){
-        accumulator[age] =[]
-    }
-    accumulator[age].push(person)
-    return accumulator
-},{})
-console.log(groupData)
+// const people = [
+//     {
+//         name:"something",
+//         age:20
+//     },
+//     {
+//         name:"some",
+//         age:22
+//     },
+//     {
+//         name:"thing",
+//         age:21
+//     },
+//     {
+//         name:"sompthing",
+//         age:20
+//     },
+//     {
+//         name:"okey",
+//         age:20
+//     }
+// ]
+// const groupData = people.reduce(function(accumulator,person){
+//     const age = person.age
+//     if(!accumulator[age]){
+//         accumulator[age] =[]
+//     }
+//     accumulator[age].push(person)
+//     return accumulator
+// },{})
+// console.log(groupData)
